@@ -201,7 +201,7 @@ def polygon_offset(points, distance):
 
     return split_self_intersecting_polygon(points_out)
 
-pp = polygon_offset(points_in, -0.03)
+pp = polygon_offset(points_in, -0.01)
 for poly in pp:
     print ("---")
     print (poly)
